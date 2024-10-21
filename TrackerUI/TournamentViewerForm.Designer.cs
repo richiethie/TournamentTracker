@@ -60,9 +60,9 @@
             this.tournamentName.Font = new System.Drawing.Font("Microsoft YaHei UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tournamentName.Location = new System.Drawing.Point(295, 61);
             this.tournamentName.Name = "tournamentName";
-            this.tournamentName.Size = new System.Drawing.Size(118, 48);
+            this.tournamentName.Size = new System.Drawing.Size(165, 48);
             this.tournamentName.TabIndex = 1;
-            this.tournamentName.Text = "None";
+            this.tournamentName.Text = "<none>";
             // 
             // roundLabel
             // 
@@ -176,6 +176,7 @@
             this.scoreButton.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
             this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.scoreButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreButton.Location = new System.Drawing.Point(671, 395);
             this.scoreButton.Name = "scoreButton";
             this.scoreButton.Size = new System.Drawing.Size(111, 50);
@@ -204,7 +205,7 @@
             this.Controls.Add(this.tournamentName);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TournamentViewerForm";
             this.Text = "Tournament Viewer";
             this.Load += new System.EventHandler(this.TournamentViewerForm_Load);
